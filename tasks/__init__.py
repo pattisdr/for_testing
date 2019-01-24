@@ -3,7 +3,7 @@ from invoke import Collection
 
 ns = Collection()
 
-current_version = '19.0.2'
+current_version = '19.0.3'
 
 def task(*args, **kwargs):
     """Behaves the same way as invoke.task. Adds the task
